@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User registration and authentication</title>
+</head>
+<body>
+    <form id="signupForm">
+        <h2>Sign Up</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter a strong password" required>
+        
+        <button type="submit">Sign Up</button>
+        <p id="signupError"></p>
+        <br>
+      </form>
+      <form id="loginForm">
+        <h2>Login</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        
+        <button type="submit">Login</button>
+        <p id="loginError"></p>
+      </form>
+      <script src="validation.js"></script>
+      
+</body>
+</html>
